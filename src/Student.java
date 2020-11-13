@@ -22,7 +22,8 @@ public class Student {
         return this.course;
     }
 
-    public String print() {
+    @Override
+    public String toString() {
         return "Ik ben " + this.name + " (" + this.id + ") en mijn favoriete course is " + this.course + ".";
     }
 }

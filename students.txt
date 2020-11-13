@@ -1,0 +1,7 @@
+Het is nu 6 uur
+Er zijn 2 studenten. Zij zullen zich nu even voorstellen!
+Ik ben Wouter Martens (0) en mijn favoriete course is CIN.
+Ik ben Leon de Kraker (1) en mijn favoriete course is CIN.
+Studentnummer: 0, naam: Wouter Martens
+Studentnummer: 1, naam: Leon de Kraker
+

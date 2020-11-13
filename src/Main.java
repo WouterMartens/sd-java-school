@@ -1,5 +1,7 @@
+import java.io.FileNotFoundException;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         // Create a new console
         Console c = new Console();
 
@@ -14,19 +16,13 @@ public class Main {
 
         // Fill an array with all of the students
         Student[] students = {student1, student2};
-        c.log("Er zijn " + students.length + " studenten. Dit zijn:");
+        c.log("Er zijn " + students.length + " studenten. Zij zullen zich nu even voorstellen!");
 
         for (Student student: students) {
-            c.log(student.getName());
+            hz.entrance(student);
+            c.log(student.toString());
         }
 
-        // Print all of the students
-//        for (Student student: students) {
-//            student.print();
-//        }
-
-        // Add students to the school
-        hz.addStudents(students);
-//        hz.print();
+        c.log(hz.getStudentPasses());
     }
 }
